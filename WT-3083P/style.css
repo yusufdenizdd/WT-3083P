@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+#nav {
+  background-color: rgb(33, 36, 41);
+}
+
+#nav .navbar-brand {
+  color: white;
+}
+
+#nav .nav-link {
+  color: rgb(131, 132, 135);
+}
+
+#nav .navbar-toggler {
+  background-color: white;
+}
+
+#intro {
+  background-color: rgb(33, 36, 41);
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+#intro h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+#intro p {
+  color: rgb(131, 132, 135);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+#intro img {
+  border-radius: 10px;
+}
+
+#intro button {
+  font-size: 1.25rem;
+}
+
+a {
+  color: white;
+}
+
+#our-team img {
+  margin: 30px;
+}
