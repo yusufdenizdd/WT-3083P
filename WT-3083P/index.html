@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WT-3083P</title>
+    <title>X Kargo</title>
     <link rel="shortcut icon" href="globe2.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -125,6 +125,7 @@
         </div>
       </div>
     </div>
+
     <div id="quote" class="bg-light py-5">
       <div class="container px-5 my-5">
         <div class="row justify-content-center text-center">
@@ -137,6 +138,7 @@
       </div>
     </div>
 
+    <!-- card class'ının bulunduğu divlere h-100 classını vererek yüksekliğinin ebeveyn elementin yüksekliğine eşit olmalarını sağladım, böylece tüm kartlar aynı yüksekliğe sahip olacak yani aynı hizada olacak. -->
     <div id="card" class="py-5">
       <div class="container my-5 px-5">
         <div class="row justify-content-center">
@@ -150,13 +152,13 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-4 my-4 mx-auto">
-            <div class="card mx-auto" style="width: 20rem">
+            <div class="card shadow mx-auto h-100">
               <img
                 src="https://dummyimage.com/600x350/ced4da/6c757d"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body pb-5">
                 <span class="badge rounded-pill text-bg-primary mb-2 py-2"
                   >Primary</span
                 >
@@ -184,20 +186,20 @@
             </div>
           </div>
           <div class="col-lg-4 my-4 mx-auto">
-            <div class="card mx-auto" style="width: 20rem">
+            <div class="card shadow mx-auto h-100">
               <img
                 src="https://dummyimage.com/600x350/ced4da/6c757d"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body pb-5">
                 <span class="badge rounded-pill text-bg-primary mb-2 py-2"
                   >Primary</span
                 >
                 <h5 class="card-title">Kargo Paketleme Rehberi</h5>
                 <p class="card-text">
                   Kargonuzun hasar görmemesi için nasıl doğru şekilde paketleme
-                  yapmanız gerektiğini öğrenin.
+                  yapmanız gerektiğini öğrenin. -
                 </p>
                 <div
                   class="card-footer d-flex justify-content-start align-items-center bg-transparent border-top-0"
@@ -216,13 +218,13 @@
             </div>
           </div>
           <div class="col-lg-4 my-4 mx-auto">
-            <div class="card mx-auto" style="width: 20rem">
+            <div class="card shadow mx-auto h-100">
               <img
                 src="https://dummyimage.com/600x350/ced4da/6c757d"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body pb-5">
                 <span class="badge rounded-pill text-bg-primary mb-2 py-2"
                   >Primary</span
                 >
@@ -253,7 +255,7 @@
 
     <div id="blue">
       <div
-        class="mb-5 container bg-primary p-5 mx-auto rounded-3 d-flex flex-md-row flex-column align-items-center"
+        class="mb-5 container bg-primary p-5 mx-auto rounded-3 d-flex flex-column flex-md-row align-items-center"
       >
         <div class="mt-3">
           <h3 class="text-white">Yeni Ürünler, Size Özel Fırsatlar</h3>
@@ -261,13 +263,13 @@
             En son güncellemeler ve özel fırsatlar için bültenimize kaydolun.
           </p>
         </div>
-        <div class="ms-auto mt-4">
+        <div class="me-auto me-md-0 ms-md-auto mt-4">
           <form>
             <div class="input-group mb-2">
               <input
                 type="email"
                 placeholder="E-posta adresiniz..."
-                class="rounded-3"
+                class="rounded-3 form-control"
               />
               <button
                 type="submit"
@@ -287,7 +289,9 @@
     <div id="footer" class="bg-dark">
       <div class="container p-4 small px-5">
         <div class="row">
-          <div class="col-12 col-sm-6 text-center text-sm-start text-white">
+          <div
+            class="col-12 col-sm-6 text-center text-sm-start text-white mb-2 mb-sm-0"
+          >
             Copyright © Yusuf Deniz Doğan
           </div>
           <div class="col-12 col-sm-6 text-center text-sm-end text-white">
